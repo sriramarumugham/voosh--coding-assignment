@@ -2,7 +2,7 @@
   /* background-color: antiquewhite; */
   height: 100vh;
   width: 100vw;
-  margin-bottom: 25vh;
+  margin-bottom: 30vh;
 }
 
 .landing_page {
@@ -27,6 +27,42 @@
   position: relative;
   width: 100%;
 }
+
+.login_container {
+  /* background-color: red; */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cover_img {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  position: absolute;
+  background-image: url("https://voosh.in/static/media/book_now_bg.e9f9294653918137cd78.webp");
+}
+
+.title {
+  font-size: 5vw;
+  color: #fff;
+  font-size: 3vw;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.page2_container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
 @media screen and (max-width: 990px) {
   .Title_container {
     flex-direction: column;
@@ -40,12 +76,27 @@
 }
 @media only screen and (min-width: 990px) {
   .Title_container {
-   flex-direction: row;
-   align-items: flex-start;
-   justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
   }
   .MyProfile_container {
     width: 45vw;
     justify-content: center;
+  }
+
+  .page2_container {
+    flex-direction: row;
+  }
+  .login_container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .title {
+    color: #fff;
+    font-size: 3vw;
+    font-style: normal;
+    font-weight: 700;
   }
 }

@@ -24,7 +24,13 @@ const Home = () => {
     LoginSession = <Login />;
   } else {
     LoginSession = (
-      <h1>Hello,{userDetails.name ? userDetails.name : "user"} !</h1>
+      <div className={"login_container"}>
+        <div className={"cover_img"}></div>
+        <div className={"title"}>Book A Demo Now</div>
+        <h1 className="title">
+          Hello,{userDetails.name ? userDetails.name : "user"} !
+        </h1>
+      </div>
     );
   }
 
