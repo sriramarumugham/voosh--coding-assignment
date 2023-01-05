@@ -1,0 +1,51 @@
+.page1_container {
+  /* background-color: antiquewhite; */
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 25vh;
+}
+
+.landing_page {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  position: absolute;
+  background-image: url("https://voosh.in/static/media/landing_bg.da8497cd24d321282c0d.webp");
+}
+.Title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+}
+.MyProfile_container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+@media screen and (max-width: 990px) {
+  .Title_container {
+    flex-direction: column;
+  }
+  .MyProfile_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+@media only screen and (min-width: 990px) {
+  .Title_container {
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: space-between;
+  }
+  .MyProfile_container {
+    width: 45vw;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,13 @@
+.my_profile_image_container {
+  height: 100%;
+  padding: 0;
+  width: 50%;
+  /* border: 10px solid royalblue; */
+  width: 45vw;
+}
+
+
+.my_profile_image {
+  margin-bottom: -15vw;
+  width: 45vw;
+}

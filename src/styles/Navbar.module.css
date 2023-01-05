@@ -1,0 +1,12 @@
+.navbar_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    max-height: 10vh;
+    /* position: absolute;
+    z-index: 1; */
+}
+.voosh_logo{
+    height: 8vh;
+}

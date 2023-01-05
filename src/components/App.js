@@ -1,6 +1,5 @@
 import { createContext, useState } from "react";
 import { Route, Routes } from "react-router-dom";
-
 import { Home, NothingFound } from "../pages/index";
 
 import "../styles/App.css";
